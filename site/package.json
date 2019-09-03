@@ -12,8 +12,17 @@
   },
   "dependencies": {
     "gatsby": "^2.1.27",
+    "gatsby-plugin-mailchimp": "^5.1.2",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-wordpress": "^3.1.14",
     "gatsby-theme-tabor": "*",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "apollo-boost": "^0.4.4",
+    "graphql-tag": "^2.10.1",
+    "isomorphic-fetch": "^2.2.1",
+    "react-apollo": "^3.0.1"
   }
 }

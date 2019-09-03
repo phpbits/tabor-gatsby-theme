@@ -31,6 +31,12 @@
 				width: auto;
 			}
 		}
+
+		+ .site-title:not(.no-site-logo) {
+			.customize-partial-edit-shortcut {
+				display: none;
+			}
+		}
 	}
 
 	.customize-partial-edit-shortcut-blogname,

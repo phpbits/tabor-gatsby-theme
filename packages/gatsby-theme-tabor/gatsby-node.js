@@ -11,3 +11,4 @@ exports.createPages = async ({ actions, graphql }) => {
   await createTags({ actions, graphql })
   await createUsers({ actions, graphql })
 }
+

@@ -33,5 +33,11 @@ module.exports = ({ wordPressUrl }) => ({
         pathToConfigModule: require.resolve(`./src/utils/typography`),
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://phpbits.us12.list-manage.com/subscribe/post?u=5597485458f20da5305e44c55&amp;id=6729a2bb96', // add your MC list endpoint here; see instructions below
+      }
+    },
   ],
 })

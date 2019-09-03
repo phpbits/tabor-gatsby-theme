@@ -7,7 +7,8 @@
  * @type {{wordPressUrl: string}}
  */
 const config = {
-  wordPressUrl: `http://alexandraspalato.com/tabor`,
+  wordPressUrl: `https://jeffreycarandanggatsby.kinsta.cloud`,
+  dynamicComments: true,
 }
 
 module.exports = config

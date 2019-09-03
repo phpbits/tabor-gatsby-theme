@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter`,
-    description: `Gatsby starter site `,
-    author: `@alexadark`,
-    wordPressUrl: `http://alexandraspalato.com/tabor`,
+    title: `Jeffrey Carandang`,
+    description: `WordPress, Business, Code `,
+    author: `@phpbits`,
+    siteUrl: `https://jeffreycarandanggatsby.kinsta.cloud`,
+    wordPressUrl: `https://jeffreycarandanggatsby.kinsta.cloud`,
   },
   __experimentalThemes: [
     {
       resolve: 'gatsby-theme-tabor',
-      options: { wordPressUrl: `http://alexandraspalato.com/tabor` },
+      options: { wordPressUrl: `https://jeffreycarandanggatsby.kinsta.cloud` },
     },
   ],
 };

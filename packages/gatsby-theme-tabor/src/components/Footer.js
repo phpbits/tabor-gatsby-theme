@@ -1,9 +1,9 @@
 import React from 'react';
-import Subscribe from './Subscribe';
+import BlogOptin from './BlogOptin';
 
 const Footer = () => (
   <footer className="site-footer">
-    <Subscribe />
+    <BlogOptin />
     <div className="site-info container center-align medium header-font gray">
       <span className="site-copyright">
         <span

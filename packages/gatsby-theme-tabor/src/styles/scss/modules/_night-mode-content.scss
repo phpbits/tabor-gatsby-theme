@@ -22,6 +22,18 @@ body {
 	background: lighten( #1c1b1b, 7% ) !important;
 }
 
+.wp-block-coblocks-shape-divider__svg-wrapper {
+	color: lighten( #1c1b1b, 7% ) !important;
+}
+
+.wp-block-coblocks-shape-divider__alt-wrapper {
+	background: lighten( #1c1b1b, 7% ) !important;
+}
+
+.wp-block-coblocks-media-card .wp-block-coblocks-row__inner.has-background {
+	background-color: $night_mode_background;
+}
+
 .wp-block-code {
 	border-color: lighten( #1c1b1b, 7% ) !important;
 	color: $night_mode_text;

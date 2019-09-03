@@ -1,3 +1,16 @@
+/*!
+Theme Name: Tabor
+Theme URI: https://themebeans.com/themes/tabor
+Author: ThemeBeans
+Author URI: https://richtabor.com
+Description: @@pkg.description
+Version: @@pkg.version
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: @@pkg.textdomain
+Tags: one-column, custom-colors, grid-layout, editor-style, custom-logo, custom-colors, custom-menu, featured-images, theme-options, translation-ready, blog, photography
+*/
+
 /*--------------------------------------------------------------
 TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -33,6 +46,11 @@ TABLE OF CONTENTS:
 # Animations
 # Cross Browser
 */
+
+/*--------------------------------------------------------------
+# Gutenberg
+--------------------------------------------------------------*/
+@import "gutenberg.css";
 
 // Variables
 @import "variables";
@@ -187,11 +205,6 @@ TABLE OF CONTENTS:
 @import "modules/accessibility-settings";
 
 /*--------------------------------------------------------------
-# Night Mode
---------------------------------------------------------------*/
-@import "modules/night-mode";
-
-/*--------------------------------------------------------------
 # Customizer
 --------------------------------------------------------------*/
 @import "modules/customizer";
@@ -207,11 +220,7 @@ TABLE OF CONTENTS:
 @import "modules/print";
 
 /*--------------------------------------------------------------
-# Coblocks
---------------------------------------------------------------*/
-@import "coblocks/style";
-
-/*--------------------------------------------------------------
 # Additional styles
 --------------------------------------------------------------*/
 @import "custom";
+@import "../../../../../node_modules/editorskit/build/style.build.css";
